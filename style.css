@@ -1,0 +1,103 @@
+#a1:link {
+    color: #FF0000;
+}
+
+
+#a2:visited {
+    color: #f712ff;
+}
+
+
+#a3:hover {
+    color: #ff00d4;
+}
+
+
+#a4:active {
+    color: #c8ff00;
+}
+
+input:checked {
+    height: 50px;
+    width: 50px;
+}
+
+p:empty {
+    width: 100px;
+    height: 20px;
+    background: #ff0000;
+}
+
+input[type=text]:disabled {
+    background: #000000;
+}
+
+#enabled:enabled {
+    background: #0084ff;
+}
+
+a:first-of-type {
+    background: rgb(173, 147, 147);
+}
+
+a:last-of-type {
+    background: #abf5a2;
+}
+
+#focus:focus {
+    background-color: rgb(212, 8, 8);
+}
+
+p:first-child {
+    background-color: rgb(224, 14, 14);
+}
+
+input:in-range {
+    border: 2px solid rgb(230, 18, 18);
+}
+
+#number:in-range {
+    border: 2px solid rgb(212, 32, 137);
+}
+
+#after_before::before {
+    content: " frist lerterrr   before";
+}
+
+#after_before::after {
+    content: " x  after";
+}
+
+p:lang(it) {
+    background: rgb(255, 102, 0);
+}
+
+p::first-letter {
+    font-size: 200%;
+    color: #25f809;
+}
+
+::selection {
+    color: red;
+    background: rgb(0, 0, 0);
+}
+
+#after_before::first-line {
+    background-color: rgb(212, 12, 136);
+}
+
+::marker {
+    color: rgb(1, 255, 22);
+}
+
+video:current-time {
+    border: 1px solid green;
+}
+
+video:past {
+    border: 1px solid rgb(255, 238, 0);
+}
+
+video:future {
+    border: 1px solid blue;
+}
